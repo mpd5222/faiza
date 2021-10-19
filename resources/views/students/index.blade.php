@@ -33,6 +33,7 @@
                         </tbody>
                     </table>
                     <a href="/students/create" class="btn btn-primary">Add Data</a> <br><br>
+                    <a href="/students/{{$s->id}}/edit" class="btn btnwarning">Edit</a>
                 </div>
             </div>
         </div>
